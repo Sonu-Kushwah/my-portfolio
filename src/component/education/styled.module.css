@@ -1,0 +1,50 @@
+.education {
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+}
+.education::before {
+    content: "";
+    color: #fff;
+    border-left: 2px solid #858792;
+    position: absolute;
+    top: 0;
+    left: 11px;
+    bottom: 0;
+    z-index: -1;
+}
+.small_yellow_border {
+    border: 2px solid #858792;
+    border-radius: 100%;
+    padding: 5px;
+    background-color: #2A2C39;
+}
+.small_yellow_circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+.small_yellow_border_main {
+    padding-left: 20px;
+}
+.bachelor {
+    color: #858792;
+    font-size: 20px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-style: italic;
+}
+.university {
+    padding-bottom: 15px;
+}
+.cursus {
+    color: #909090;
+    font-size: 16px !important;
+    line-height: 24px;
+    margin: 0;
+}

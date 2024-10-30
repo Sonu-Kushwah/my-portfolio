@@ -1,0 +1,17 @@
+.contactCard{
+    background-color: #2A2C39;
+    padding: 30px;
+    border:1px solid #2A2C39;
+}
+.contactCard h6{
+ color: #fff;
+ padding-bottom: 10px;
+}
+.contactCard:hover{
+    border-color: rgba(255,255,255,.1);
+    background-color: transparent;
+    transition: 0.3 ease;
+}
+/* .contactCard p{
+  color:"";
+} */

@@ -1,0 +1,34 @@
+.breadcrupWrapper {
+  width: 100%;
+  height: 80vh;
+  background-color: #0b0f14;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../../assets/images/breadcrumb-bg.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.breadcrupWrapper h1 {
+  /* background: linear-gradient(145deg, #ff533c, #e40000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  font-family: Poppins, sans-serif !important;
+  color:#fff;
+  font-size: 60px;
+}
+.breadcrupWrapper a {
+  color: #999696 !important;
+}
+.breadcrupWrapper li {
+  color: #fff;
+}
+.breadcrupWrapper a {
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width: 576px) {
+  .breadcrupWrapper {
+    background-position: 50%;
+  }
+}
